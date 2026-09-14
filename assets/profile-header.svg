@@ -1,19 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320" viewBox="0 0 800 320" role="img" aria-labelledby="title description">
-  <title id="title">Chen Jiahao</title>
-  <desc id="description">Curtin Singapore. Management, AI systems, and software engineering.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title description">
+  <title id="title">Chen Jiahao — product-minded builder</title>
+  <desc id="description">Management, product thinking, AI systems, and software engineering.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#12283d"/>
-      <stop offset="1" stop-color="#0a1728"/>
+      <stop offset="0" stop-color="#071713"/>
+      <stop offset="0.58" stop-color="#0b241d"/>
+      <stop offset="1" stop-color="#102b23"/>
     </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(1040 65) rotate(135) scale(360 260)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#72e8a7" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#72e8a7" stop-opacity="0"/>
+    </radialGradient>
   </defs>
-  <rect width="800" height="320" rx="18" fill="url(#background)"/>
-  <path d="M670 28h102v102M696 54h50v50" fill="none" stroke="#63d7c3" stroke-width="2" opacity="0.22"/>
-  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
-    <text x="48" y="96" font-size="64" font-weight="650" letter-spacing="-1.5" fill="#f1f7fa">Chen Jiahao</text>
-    <text x="50" y="146" font-size="32" font-weight="400" fill="#b8cbd8">Curtin Singapore</text>
-    <path d="M50 177h62" stroke="#63d7c3" stroke-width="3" stroke-linecap="round"/>
-    <text x="50" y="228" font-size="32" font-weight="400" fill="#8ce2d2">Management · AI systems</text>
-    <text x="50" y="271" font-size="32" font-weight="400" fill="#b8cbd8">Software engineering</text>
+  <rect width="1200" height="380" rx="28" fill="url(#background)"/>
+  <rect width="1200" height="380" rx="28" fill="url(#glow)"/>
+  <path d="M0 318C196 270 315 358 503 311C690 264 840 304 1200 205" fill="none" stroke="#72e8a7" stroke-opacity="0.10" stroke-width="2"/>
+  <path d="M0 340C203 292 331 377 520 332C708 287 889 315 1200 240" fill="none" stroke="#efc773" stroke-opacity="0.09" stroke-width="2"/>
+  <g transform="translate(952 74)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 26C0 11.6 11.6 0 26 0h122c14.4 0 26 11.6 26 26v50c0 14.4-11.6 26-26 26H91l-40 29v-29H26C11.6 102 0 90.4 0 76V26Z" stroke="#72e8a7" stroke-opacity="0.42" stroke-width="3"/>
+    <path d="M76 122h74c15.5 0 28 12.5 28 28v30c0 15.5-12.5 28-28 28h-32l-32 24v-24H76c-15.5 0-28-12.5-28-28v-30c0-15.5 12.5-28 28-28Z" stroke="#efc773" stroke-opacity="0.34" stroke-width="3"/>
+    <circle cx="54" cy="52" r="5" fill="#72e8a7" stroke="none"/>
+    <circle cx="82" cy="52" r="5" fill="#72e8a7" stroke="none"/>
+    <circle cx="110" cy="52" r="5" fill="#72e8a7" stroke="none"/>
+  </g>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', Arial, sans-serif">
+    <text x="62" y="74" font-size="22" font-weight="700" letter-spacing="3.8" fill="#efc773">PRODUCT-MINDED BUILDER</text>
+    <text x="58" y="175" font-size="76" font-weight="700" letter-spacing="-2.6" fill="#f2f8f5">Chen Jiahao</text>
+    <text x="62" y="232" font-size="31" font-weight="400" fill="#b7cbc1">Management · Product thinking · AI systems</text>
+    <text x="62" y="280" font-size="31" font-weight="400" fill="#72e8a7">Software engineering · Practical prototypes</text>
+    <text x="62" y="331" font-size="28" font-weight="400" fill="#90a99d">产品思维 × 技术实践</text>
   </g>
 </svg>
